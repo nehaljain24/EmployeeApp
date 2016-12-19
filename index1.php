@@ -36,6 +36,8 @@ echo "<br><br><br><br><table border='3'  width='800' cellspacing='8' cellpadding
 <th>Contact</th>
 <th>Qualification</th>
 <th>Country</th>
+<th>Edit</th>
+<th>Delete</th>
 </tr>";
 
 while($row = mysqli_fetch_array($result))
@@ -46,6 +48,11 @@ echo "<td>" . $row['email'] . "</td>";
 echo "<td>" . $row['contact'] . "</td>";
 echo "<td>" . $row['qual'] . "</td>";
 echo "<td>" . $row['country'] . "</td>";
+echo '<td><a href="edit.php?id=' . $row['id'] . '">Edit</a></td>';
+
+echo '<td><a href="delete.php?id=' . $row['id'] . '">Delete</a></td>';
+
+
 echo "</tr>";
 }
 echo "</table>";

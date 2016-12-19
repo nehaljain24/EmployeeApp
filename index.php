@@ -31,7 +31,7 @@ and password='$password'";
          }else{
 	echo "<div align='center'>
 <h1 style='margin-top: 250px;'>Username/password is incorrect.</h1>
-<br/><p style=' font-size: 150%;'>Click here to <a href='login1.php'>Login</a></p></div>";
+<br/><p style=' font-size: 150%;'>Click here to <a href='index.php'>Login</a></p></div>";
 	}
     }else{
 ?>
