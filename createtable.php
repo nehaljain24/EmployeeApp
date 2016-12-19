@@ -2,7 +2,7 @@
  // DB connection info
  
  try{
-     $conn = mysqli_connect("in-cdbr-azure-central-b.cloudapp.net","b96075876289ff","4d809d24","acsm_53553ff6e069a70");
+     $conn = mysqli_connect("in-cdbr-azure-central-b.cloudapp.net","bf93a845126411","7749a8d4","acsm_2d98dd3d6443bb1");
 
 
      $sql1 = "CREATE TABLE IF NOT EXISTS users (
